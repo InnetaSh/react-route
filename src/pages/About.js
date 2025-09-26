@@ -9,7 +9,7 @@ export default function About()
     return(
         <div className="card">
             <h2>О проекте</h2>
-            <p>текущий путь <code>{location.pathname}{location.search}</code></p>
+            <p> путь <code>{location.pathname}{location.search}</code></p>
             
         </div>
     )
